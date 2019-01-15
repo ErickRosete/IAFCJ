@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1,
+            shrink-to-fit=no"
+            />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+            />
+
+        <link rel="stylesheet" href="./styles/site.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous"
+            />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Trocchi|Montserrat|Open+Sans|Roboto"
+            rel="stylesheet"
+            />
+        <link rel="shortcut icon" href="./logo.ico" />
+
+        <title>IAFCJ - San Luis</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#redes">Encuentra tu grupo</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="video-container">
+            <video autoplay loop muted>
+                <source src="./assets/videos/main.mp4" type="video/mp4">
+            </video>
+            <div id="video-cover"></div>
+            <h1 class="title">Iglesia Apostólica de la Fé en Cristo Jesus</h1>
+            <div id="time">
+                <h2>Viernes 7:30 pm</h2>
+                <h2>Domingos 2:00pm</h2>
+            </div>
+
+            <a id="location" href="#redes" class="btn btn-primary">Ubicaciones</a>
+        </div>
+
+        <div id="about" class="container-fluid">
+            <div class="row">
+                <div id="img-container" class="col-12 col-md-6">
+                    <img src="assets/images/landing-page/baile.jpg">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="about-text">
+                        <img id="logo" src="assets/images/landing-page/logo.png"
+                            height="75">
+                        <h2>Quiénes Somos</h2>
+                        <p>Somos una congregación de 7 iglesias ubicadas en san
+                            luis
+                            rio colorado comprometidas con ayudar a quienes lo
+                            necesiten</p>
+                        <p>"Eramos gente que andaba en la oscuridad... hasta que
+                            hubo esperanza, hubo fe, hubo la promesa del
+                            Salvador.
+                            Dios amó tanto que nos envió a su único hijo "</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="services-list-container" class="col-md-3 col-12">
+                        <div class="pl-4 pr-4">
+                            <h2>Servicios</h2>
+                            <ul>
+                                <li><a class="selected" href="#">Ayuda a
+                                        enfermos</a></li>
+                                <li><a href="#">Personas Vulnerables</a></li>
+                                <li><a href="#">Personas de la tercera edad</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="services-details" class="col-md-6 col-12">
+                        <h2>Ayuda a enfermos</h2>
+                        <p>
+                            En nuestra iglesia nos preocupamos por nuestra
+                            comunidad y ofrecemos ayuda a personas y a
+                            organizaciones de pacientes con enfermedades.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-12 pr-0" style="overflow:hidden">
+                        <img src="./assets/images/landing-page/servicios.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="redes">
+            <div id="top-redes">
+                <h2>Ubicaciones</h2>
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Iglesia 1</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Iglesia
+                            2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Iglesia 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Iglesia 4</a></li>
+                </ul>
+            </div>
+            <div id="iglesia-1" class="iglesia">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-12 pl-0">
+                            <div class="google-maps">
+                                <iframe width="600" height="200"
+                                    id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=Avenida%20Colima%20y%201ra.%20San%20Luis%20Rio%20Colorado%2C%20Son.&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no"
+                                    marginheight="0" marginwidth="0"></iframe>
+                                <a
+                                    href="https://www.embedgooglemap.net"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="p-4">
+                                <h3>2da Iglesia Apostólica</h3>
+                                <p><b>Ubicacion:</b> Avenida Colima y 1ra. San
+                                    Luis
+                                    Rio
+                                    Colorado, Son.</p>
+                                <p><b>Telefono:</b> 01 686 566 5791</p>
+                                <p><b>Pagina de fb:</b>
+                                    <a
+                                        href="https://www.facebook.com/2da-IAFCJ-San-Luis-750368241819032/">2da
+                                        Iglesia Apostólica</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-banner"></div>
+
+        <div id="contact">
+            <h1 class="title">Contacto</h1>
+            <form class="form-inline">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-row mb-4">
+                                <div class="col-4">
+                                    <label for="name" class="required">Nombre</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text"
+                                        class="form-control-plaintext"
+                                        id="name" placeholder="Jessica Borja">
+                                </div>
+
+                            </div>
+                            <div class="form-row mb-4">
+                                <div class="col-4">
+                                    <label for="phone">Teléfono</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="tel"
+                                        class="form-control-plaintext"
+                                        id="phone" placeholder="6531074538">
+                                </div>
+                            </div>
+                            <div class="form-row mb-4">
+                                <div class="col-4">
+                                    <label for="email" class="required">Correo
+                                        electrónico</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="email"
+                                        class="form-control-plaintext"
+                                        id="email"
+                                        placeholder="jessicalizethborja@hotmail.com">
+                                </div>
+                            </div>
+                            <div class="form-row mb-4">
+                                <div class="col-4">
+                                    <label for="topic">Tema</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text"
+                                        class="form-control-plaintext"
+                                        id="topic"
+                                        placeholder="Consejos">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="contact-textarea" class="required">Pregunta,
+                                    comentario u oraciones</label>
+                                <textarea
+                                    id="contact-textarea"
+                                    class="form-control-plaintext" rows="6"
+                                    cols="100"></textarea>
+
+                            </div>
+                            <button type="submit" class="btn btn-primary
+                                ml-auto">Enviar</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <span>©2018 Copyright: IAFCJ</span>
+            <div class="ml-auto" id="social-networks">
+                <a href="https://facebook.com/"><i class="fab
+                        fa-facebook-square
+                        fa-2x"></i></a>
+                <a
+                    href="https://www.linkedin.com/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
